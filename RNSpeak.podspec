@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
 
   s.authors      = package['author']
   s.homepage     = package['homepage']
+  
   s.platform     = :ios, "9.0"
   s.ios.deployment_target = '9.0'
 
