@@ -46,6 +46,9 @@
     "start": "Runs the packager for example",
     "prepare-release": "One-step: clean, build, test, publish docs, and prep a release"
   },
+  "peerDependencies": {
+    "react-native": ">=0.57"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/runtime": "^7.4.5",
